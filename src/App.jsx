@@ -4,7 +4,7 @@ import Chat from "./Chat";
 import './App.css'
 
 //establish connection
-const socket = io.connect("http://localhost:8080");
+const socket = io.connect("https://socket-learn-server.onrender.com");
 //there are no http requests are sending to backend in socket io , 
 
 function App() {
